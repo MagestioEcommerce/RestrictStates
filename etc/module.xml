@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+    <module name="Magestio_RestrictStates" setup_version="1.0.0">
+        <sequence>
+            <module name="Magestio_Core"/>
+            <module name="Magestio_Directory"/>
+        </sequence>
+    </module>
+</config>
